@@ -11,7 +11,8 @@ JUST FOR LEARNING!
 
 
 #### Usage
-*将本仓库的hook.js重命名为hooklog.js，与NodeInject仓库的hooklog.js替换再进行编译*
+*将本仓库的hook.js重命名为hooklog.js，与NodeInject仓库的hooklog.js替换再进行编译
+不行的话，就将这个仓库的提交退回至Merge pull request #2 from javilak/main *
 1. `git clone https://github.com/DiamondHunters/NodeInject.git`
 2. Replace `hooklog.js` with `hook.js` in this repo (or use `no_embed` feature and set `NO_EMBED_HOOK_JS_PATH` to the path of `hook.js`)
 3. Run `cargo build` or `cargo build --features no_embed` to build a type of executable (If you enabled `no_embed` feature, you need to copy `hook.js` to the same directory of executable)
